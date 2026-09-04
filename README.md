@@ -1,9 +1,20 @@
-# Simple React app boilerplate
+# React boilerplate
 
-Boilerplate for Wodby 2.0 static HTML app.
+A React starter for [Wodby](https://wodby.com), built with Vite.
 
-https://github.com/wodby/service-nginx
+## Local development
 
-https://github.com/wodby/stack-html
+```sh
+npm install
+npm run dev
+```
 
-https://github.com/stacks/html
+Open the local URL printed by Vite.
+
+## Production build
+
+```sh
+npm run build
+```
+
+The static application is written to `dist`. The included Wodby CI pipeline builds and publishes that directory. This boilerplate is used by the [React service](https://github.com/wodby/service-react) and [React stack](https://github.com/wodby/stack-react).
